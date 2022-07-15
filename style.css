@@ -1,0 +1,64 @@
+
+.toolbar__brand{
+    margin-right: 150px;
+}
+.logo{
+    width: 100%;
+    height: 110px;
+}
+.topbar__inner{
+    display: flex;
+    justify-content: center;
+}
+.topbar__form{
+    display: flex;
+    font-size: 16px;
+    padding: 0 12px;
+    width: 100%;
+    color: #000000;
+    border: 0;
+    box-sizing: border-box;
+    align-items: center;
+    max-width: 640px;
+}
+.search-form__input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #7a7a7a;
+}
+
+.search-form__button{
+    height: 50px;
+    width: 80px;
+    border: none;
+    background-color: #000000;
+    border-radius:0  6px 6px 0px
+
+}
+.search-form__svg{
+    fill: #fff;
+    width: 40px;
+    height: 40px;
+}
+.topbar__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.topbar__links a{
+    margin-left: 50px;
+}
+.news-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    max-width: 300px;
+
+}
+.card-info{
+    display: flex;    
+    flex-direction: column;
+
+}
