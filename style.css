@@ -105,7 +105,6 @@ body{
 .news-cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: 40px;
 }
 
@@ -141,9 +140,13 @@ body{
     margin-right: auto;
 }
 .card{
-    max-width: 300px;
-    margin-bottom: 30px;
+    width: 22%;
+    padding: 20px;
 
+}
+.card-img{
+    width: 100%;
+    height: auto;
 }
 .card-info{
     display: flex;    

@@ -1,6 +1,6 @@
 $(function(){
 
-let filter =$("[data-filter]");
+let filter = $("[data-filter]");
 
 filter.on("click", function(event) {
     event.preventDefault();
@@ -8,19 +8,18 @@ filter.on("click", function(event) {
     let cat = $(this).data('filter');
 
     if(cat == 'Общее'){
-        $("[data-cat]").remomeClass('hide');
-    }else{
-        $("[data-cat]").each(function() {
-
-            let workCat = $(this).data('cat');
-    
-            if(workCat != cat){
-                $(this).addClass('hide');
-            } else{
-                $(this).remomeClass('hide');
-            }
+        $("[data-cat]").removeClass('hide');
+    } else {
+            $("[data-cat]").each(function() {
+                let workCat = $(this).data('cat');
+        
+                if(workCat != cat) {
+                    $(this).addClass('hide');
+                } else {
+                    $(this).removeClass('hide');
+                }
         });
-    };
+    }
 });
 
 });
